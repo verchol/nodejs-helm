@@ -1,0 +1,27 @@
+{
+  "name": "protobuf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "release_pb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-stream": "^0.1.3",
+    "cli-table": "^0.3.1",
+    "concat-stream": "^1.6.2",
+    "google-proto-files": "^0.15.1",
+    "google-protobuf": "^3.5.0",
+    "grpc": "^1.10.1",
+    "gunzip-maybe": "^1.4.1",
+    "gunzip-stream": "^1.0.1",
+    "js-yaml": "^3.11.0",
+    "memory-streams": "^0.1.3",
+    "moment": "^2.22.1",
+    "protobufjs": "^6.8.6",
+    "protocol-buffers": "^4.0.4",
+    "resolve-protobuf-schema": "^2.0.0"
+  }
+}

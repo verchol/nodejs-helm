@@ -1,0 +1,29 @@
+Error: Must provide <filename> <path_to_update> <value>
+Usage:
+  yq write [yaml_file] [path] [value] [flags]
+
+Aliases:
+  write, w
+
+Examples:
+
+yq write things.yaml a.b.c cat
+yq write --inplace things.yaml a.b.c cat
+yq w -i things.yaml a.b.c cat
+yq w --script update_script.yaml things.yaml
+yq w -i -s update_script.yaml things.yaml
+yq w things.yaml a.b.d[+] foo
+yq w things.yaml a.b.d[+] foo
+      
+
+Flags:
+  -h, --help            help for write
+  -i, --inplace         update the yaml file inplace
+  -s, --script string   yaml script for updating yaml
+
+Global Flags:
+  -j, --tojson    output as json
+  -t, --trim      trim yaml output (default true)
+  -v, --verbose   verbose mode
+
+Must provide <filename> <path_to_update> <value>
